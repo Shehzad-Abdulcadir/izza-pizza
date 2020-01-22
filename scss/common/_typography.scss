@@ -1,6 +1,6 @@
 // Base
 html {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 html,
@@ -9,13 +9,13 @@ button,
 input,
 select,
 textarea {
-    font-family: $primary-font;
-    font-weight: $primary-font-light;
+  font-family: $primary-font;
+  font-weight: $primary-font-light;
 }
 
 strong,
 b {
-    font-weight: $primary-font-bold;
+  font-weight: $primary-font-bold;
 }
 
 p,
@@ -26,8 +26,8 @@ button,
 input,
 select,
 textarea {
-    font-size: 18px;
-    line-height: 26px;
+  font-size: 18px;
+  line-height: 26px;
 }
 
 h1,
@@ -36,62 +36,64 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: $primary-font;
-    font-weight: $primary-font-bold;
+  font-family: $primary-font;
+  font-weight: $primary-font-bold;
 }
 
 // Mobile First Sizes
 .heading-featured {
-    font-size: 39px;
-    line-height: 49px;
+  font-size: 39px;
+  line-height: 49px;
 
-    @media (min-width: $lg) {
-        font-size: 92px;
-        line-height: 102px;
-    }
+  @media (min-width: $lg) {
+    font-size: 92px;
+    line-height: 102px;
+  }
 }
 
 h1,
 .h1 {
-    font-size: 31px;
-    line-height: 41px;
+  font-size: 31px;
+  line-height: 41px;
+  font-weight: $primary-font-bold;
 
-    @media (min-width: $lg) {
-        font-size: 76px;
-        line-height: 86px;
-    }
+  @media (min-width: $lg) {
+    font-size: 76px;
+    line-height: 86px;
+  }
 }
 
 h2,
 .h2 {
-    font-size: 20px;
-    line-height: 30px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: $primary-font-bold;
 
-    @media (min-width: $lg) {
-        font-size: 29px;
-        line-height: 39px;
-    }
+  @media (min-width: $lg) {
+    font-size: 29px;
+    line-height: 39px;
+  }
 }
 
 .text {
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0;
 
-    @media (min-width: $lg) {
-        font-size: 18px;
-        line-height: 28px;
-        letter-spacing: 0.5px;
-    }
+  @media (min-width: $lg) {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+  }
 }
 
 .nav-links {
-    font-size: 18px;
-    line-height: 28px;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 .tags {
-    font-size: 14px;
-    line-height: 14px;
-    letter-spacing: 0.5px;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.5px;
 }

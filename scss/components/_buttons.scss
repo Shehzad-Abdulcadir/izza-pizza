@@ -1,16 +1,17 @@
 button {
-    background-color: $color-black;
-    color: $color-white;
-    padding: 2px 5px;
-    font-weight: $font-weight-normal;
-    border: 1px solid $color-black;
-    font-size: 16px;
-    letter-spacing: 0.5px;
-    cursor: pointer;
-    transition: all 0.3s;
+  background-color: $color-black;
+  color: $color-white;
+  padding: 2px 5px;
+  font-weight: $font-weight-normal;
+  border: 1px solid $color-black;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-weight: $primary-font-medium;
 
-    &:hover {
-        background-color: $color-white;
-        color: $color-black;
-    }
+  &:hover {
+    background-color: $color-white;
+    color: $color-black;
+  }
 }

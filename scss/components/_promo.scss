@@ -1,3 +1,31 @@
 .c-promo {
+  &__inner {
+    background-color: $color-primary;
+  }
 
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    padding: 80px;
+
+    span {
+      color: $color-black;
+      background-color: $color-white;
+      padding: 5px 10px;
+      font-weight: $primary-font-medium;
+      font-size: 14px;
+      letter-spacing: 0.5px;
+    }
+  }
+
+  &__img {
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
