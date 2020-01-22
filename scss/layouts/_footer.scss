@@ -1,0 +1,30 @@
+.c-footer {
+    background-color: $color-black;
+    background-image: url(/assets/svg/whiteswirl.svg);
+    background-position: 600px 90%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: $color-white;
+
+    a {
+        color: $color-white;
+        text-decoration: none;
+    }
+
+    img.invert {
+        filter: invert(1);
+    }
+
+    &__contact {
+        display: flex;
+        flex-direction: row;
+
+        &__phone {
+            margin-right: 20px;
+        }
+
+        &__social {
+        }
+    }
+
+}

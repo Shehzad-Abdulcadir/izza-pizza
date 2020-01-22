@@ -1,0 +1,97 @@
+// Base
+html {
+    font-size: 16px;
+}
+
+html,
+body,
+button,
+input,
+select,
+textarea {
+    font-family: $primary-font;
+    font-weight: $primary-font-light;
+}
+
+strong,
+b {
+    font-weight: $primary-font-bold;
+}
+
+p,
+li,
+span,
+a,
+button,
+input,
+select,
+textarea {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $primary-font;
+    font-weight: $primary-font-bold;
+}
+
+// Mobile First Sizes
+.heading-featured {
+    font-size: 39px;
+    line-height: 49px;
+
+    @media (min-width: $lg) {
+        font-size: 92px;
+        line-height: 102px;
+    }
+}
+
+h1,
+.h1 {
+    font-size: 31px;
+    line-height: 41px;
+
+    @media (min-width: $lg) {
+        font-size: 76px;
+        line-height: 86px;
+    }
+}
+
+h2,
+.h2 {
+    font-size: 20px;
+    line-height: 30px;
+
+    @media (min-width: $lg) {
+        font-size: 29px;
+        line-height: 39px;
+    }
+}
+
+.text {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0;
+
+    @media (min-width: $lg) {
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 0.5px;
+    }
+}
+
+.nav-links {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.tags {
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.5px;
+}
