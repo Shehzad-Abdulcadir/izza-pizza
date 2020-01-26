@@ -6,24 +6,74 @@
   background-repeat: no-repeat;
   color: $color-white;
 
-  a {
-    color: $color-white;
-    text-decoration: none;
-  }
-
-  img.invert {
+  &__img {
     filter: invert(1);
   }
 
   &__contact {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+  }
+
+  &__content {
+    flex-grow: 1;
+    max-width: 700px;
+    display: flex;
+    flex-direction: row;
+
+    p {
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+      border-bottom: 1px solid $color-white;
+    }
 
     &__phone {
-      margin-right: 20px;
+      flex-grow: 1;
+      margin-right: 30px;
     }
 
     &__social {
+      flex-grow: 1;
     }
+  }
+
+  &__copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 0;
+
+    &__copy {
+      font-size: 14px;
+      font-weight: $primary-font-light;
+    }
+
+    &__madeby {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      color: $color-white;
+      font-size: 14px;
+      font-weight: $primary-font-light;
+
+      &::after {
+        display: inline-block;
+        content: " ";
+        filter: invert(1);
+        background-image: url("/assets/svg/un.svg");
+        background-size: 80px 80px;
+        height: 80px;
+        width: 80px;
+      }
+    }
+  }
+
+  a {
+    color: $color-white;
+    text-decoration: none;
   }
 }
