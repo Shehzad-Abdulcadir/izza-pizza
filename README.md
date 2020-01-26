@@ -2,6 +2,16 @@
 
 This github repo stores the code which will be used on the Izza Pizza landing page, along with the report outlining the requirements and steps needed to complete the project.
 
+The main goal of this project is to recreate this design - [link.](https://projects.invisionapp.com/share/CXV79L5S29U#/screens/397139710)
+
+# Spec
+
+- The header should be sticky
+- The header, banner image & footer should be full bleed
+- Other content should have a max column width of 1500px
+- Links don't need to go anywhere/you can provide example markup
+- The map overlay should be triggered when clicking on the View map button
+
 # Planning & Approach
 
 Looking at the design, We can outline the specific requirements for the landing page.
@@ -39,9 +49,12 @@ These are the external libraries which would be considered and used in this proj
 
 - [Bootstrap Grid](https://getbootstrap.com/)
 - [SCSS](https://sass-lang.com/)
+- [Parcel.js](https://parceljs.org/)
 
 ### **Justification**
 
-Bootstrap is the most popular grid framework with great support acrossall browsers including IE11. Using Bootstrap also allows to incorperate it's additional Javascript offerings if required.
+Bootstrap is the most popular grid framework with great support across all browsers including IE11. Using Bootstrap also allows to incorperate it's additional Javascript offerings if required.
 
 SCSS should be used as it massively increases CSS writing speeds and allows us to follow the [BEM Methodology](https://en.bem.info/methodology/) for a far more organised CSS stucture.
+
+Parcel.js was used in order to quickly setup build tools for this project. By using parcel I am able to bundle all my assets, minify my files for production and easily use LiveReload and SCSS.
