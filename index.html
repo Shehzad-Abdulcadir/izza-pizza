@@ -176,7 +176,9 @@
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Aenean tristique libero nec nisi semper, et vestibulum lectus maximus.
                             Curabitur.
-                        </p><button class="d-block">View Map</button>
+                        </p>
+                        <!-- Map modal trigger -->
+                        <button id="js-map-modal-trigger" class="d-block">View Map</button>
                     </div>
                 </div>
 
@@ -190,7 +192,19 @@
 
     <!-- Popup -->
     <section class="c-popup">
+        <div id="js-map-modal" class="c-popup__modal">
 
+            <div class="c-popup__content">
+                <div class="c-popup__content__header">
+                    <p class="h2  mt-0">Find us at</p>
+                    <img class="c-popup__close" src="/assets/svg/cross.svg" alt="Close">
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1615.9254597722654!2d-1.1339286902650432!3d52.63915745447631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb7314784b68c14c0!2sUn.titled!5e0!3m2!1sen!2suk!4v1575994684235!5m2!1sen!2suk"
+                    width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+
+        </div>
     </section>
 
     <footer class="c-footer">
