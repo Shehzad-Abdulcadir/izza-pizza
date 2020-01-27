@@ -23,13 +23,13 @@
     margin-top: 10px;
     margin-left: 20px;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: $md) {
       margin: 0;
     }
   }
 
   &__navbar {
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: $md) {
       display: flex;
       justify-content: space-between;
       padding-bottom: 0;
@@ -46,7 +46,8 @@
     cursor: pointer;
     max-height: 30px;
     max-width: 30px;
-    @media screen and (min-width: 768px) {
+
+    @media screen and (min-width: $md) {
       display: none;
     }
   }
@@ -56,7 +57,7 @@
     display: none;
     padding: 0;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: $md) {
       display: flex;
       margin-right: 30px;
       flex-direction: row;
@@ -87,7 +88,7 @@
       text-align: center;
       margin: 15px auto;
 
-      @media screen and (min-width: 768px) {
+      @media screen and (min-width: $md) {
         margin: 0;
       }
     }
@@ -96,7 +97,7 @@
       text-decoration: none;
       color: $color-white;
 
-      @media screen and (min-width: 768px) {
+      @media screen and (min-width: $md) {
         margin-left: 40px;
       }
     }
