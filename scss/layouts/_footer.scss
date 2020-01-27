@@ -12,9 +12,14 @@
 
   &__contact {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     padding-top: 40px;
+
+    @media screen and (min-width: $md) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
   }
 
   &__content {
@@ -22,6 +27,12 @@
     max-width: 700px;
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 30px;
+
+    @media screen and (min-width: $md) {
+      padding-top: 0;
+    }
 
     p {
       font-weight: $primary-font-bold;
@@ -31,12 +42,22 @@
     }
 
     &__phone {
-      flex-grow: 1;
       margin-right: 30px;
+      flex-grow: 1;
+
+      @media screen and (min-width: $md) {
+        width: 50%;
+        flex-grow: 1;
+        max-width: 220px;
+      }
     }
 
     &__social {
-      flex-grow: 1;
+      @media screen and (min-width: $md) {
+        width: 50%;
+        max-width: 220px;
+        flex-grow: 1;
+      }
 
       &__icons {
         margin-right: 30px;
@@ -50,13 +71,19 @@
 
   &__copyright {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     padding: 15px 0;
+
+    @media screen and (min-width: $md) {
+      flex-direction: row;
+    }
 
     &__copy {
       font-size: 14px;
       font-weight: $primary-font-light;
+      max-width: 400px;
     }
 
     &__madeby {
