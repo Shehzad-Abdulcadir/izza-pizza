@@ -5,12 +5,12 @@
 @import "common/variables";
 @import "common/grid";
 @import "common/typography";
+@import "common/buttons";
 
 @import "layouts/header";
 @import "layouts/footer";
 
 // Sections
-@import "components/buttons";
 @import "components/banner";
 @import "components/popup";
 @import "components/menu";
