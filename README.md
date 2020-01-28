@@ -1,8 +1,10 @@
 # Izza Pizza
 
-This github repo stores the code which will be used on the Izza Pizza landing page, along with the report outlining the requirements and steps needed to complete the project.
+This github repo stores the code which will be used on the Izza Pizza landing page, along with the report outlining the requirements and steps to complete the project.
 
 The main goal of this project is to recreate this design - [link.](https://projects.invisionapp.com/share/CXV79L5S29U#/screens/397139710)
+
+The final version of the landing page can be viewed here - [link.](https://shehzad-abdulcadir.github.io/izza-pizza/)
 
 # Spec
 
@@ -19,7 +21,7 @@ Looking at the design, We can outline the specific requirements for the landing 
 ### **Requirements**
 
 - Header (Sticky)
-- Jumbotron
+- Banner
 - Tabbed Menus
 - Family and Find us content sections
 - Offer Promo section
@@ -36,7 +38,7 @@ Below are what I would class as the reuseable sections for the homepage.
 
 ### **Sections**
 
-- Jumbotron
+- Banner
 - Tabbed Menus
 - Text / Image content area
 - Offer Promo section
@@ -58,3 +60,18 @@ Bootstrap is the most popular grid framework with great support across all brows
 SCSS should be used as it massively increases CSS writing speeds and allows us to follow the [BEM Methodology](https://en.bem.info/methodology/) for a far more organised CSS stucture.
 
 Parcel.js was used in order to quickly setup build tools for this project. By using parcel I am able to bundle all my assets, minify my files for production and easily use LiveReload and SCSS.
+
+Vanilla JS will be used as there are
+
+## **Tools**
+
+- The code editor of choice was VSCode
+- Linting and code formatting follows Wes Bos's No Sweat ESLint and Prettier setup - [link](https://github.com/wesbos/eslint-config-wesbos)
+
+## **Improvements / TODO**
+
+- Setup Stylelint rules to better organise and order the CSS properties.
+- Further responsive fixes and browser testing.
+- Further code refactoring / cleanup could be done.
+- Add more animations.
+- Make the menus section tabbed content which shows / hides items.
